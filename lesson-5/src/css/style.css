@@ -1,31 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #e5e5e5;
+  margin: 0;
+  background: url("https://media1.tenor.com/images/43b57a285515a1069156eae1bb90184f/tenor.gif?itemid=11630437") no-repeat bottom right;
+  background-attachment: fixed;
+  background-color: #ccc;
 }
 
 .container {
-  max-width: 1070px;
+  max-width: 1170px;
   margin: auto;
+  margin-left: 17%;
   text-align: center;
 }
 
-h1,
-h2 {
+img {
+  width: 100%;
+}
+
+h1 {
   text-align: center;
 }
+
 
 h3 {
-  text-align: left;
+  width: fit-content;
+  padding: 5px;
+  border: 1px solid black;
+  background: #fff;
 }
 
-.top {
-  text-align: right;
+
+.wrap-paragraphs {
+  position: fixed;
+  top: 20%;
+  left: 0;
 }
 
 .paragraphs {
-  position: fixed;
-  top: 50%;
   list-style: none;
-  transform: translateY(-50%);
+}
+
+.wrap-books {
+  margin-left: 120px;
 }
 
 .paragraphs li {
@@ -38,4 +57,36 @@ h3 {
 
 .paragraphs a {
   color: #000;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.purple {
+  color: purple;
+}
+
+.orange {
+  color: orange
+}
+
+.blue {
+  color: blue;
 }
