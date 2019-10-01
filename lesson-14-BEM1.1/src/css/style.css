@@ -43,7 +43,7 @@ img {
   margin-bottom: 90px;
 }
 
-.card {
+.work-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,7 +56,7 @@ img {
       flex-wrap: wrap;
 }
 
-.card-block {
+.work-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,33 +70,36 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 50px 48px 45px 52px;
   background: #ffffff;
   -webkit-box-shadow: 0 14px 21px rgba(0, 0, 0, 0.17);
           box-shadow: 0 14px 21px rgba(0, 0, 0, 0.17);
 }
 
-.card-block__title {
+.work-block__padding {
+  padding: 50px 48px 45px 52px;
+}
+
+.work-block__title {
   margin-bottom: 33px;
   font-size: 19px;
   font-weight: 700;
 }
 
-.card-block__image {
+.work-block__image {
   margin-bottom: 37px;
 }
 
-.card-block__price {
+.work-block__price {
   margin-bottom: 34px;
   font-size: 19px;
   font-weight: 700;
 }
 
-.card-block__big {
+.work-block__big {
   font-size: 30px;
 }
 
-.card-block__button {
+.work-block__button {
   cursor: pointer;
   width: 209px;
   height: 65px;
@@ -113,36 +116,36 @@ img {
   background-image: linear-gradient(to top, #f5ad00 0%, #ffb504 100%);
 }
 
-.card-block__button_l {
+.work-block__button_l {
   margin-top: 112px;
 }
 
-.card-block__button_m {
+.work-block__button_m {
   margin-top: 60px;
 }
 
-.card-block__button_s {
+.work-block__button_s {
   margin-top: 34px;
 }
 
-.card-list {
+.work-list {
   padding: 0;
   margin: 0;
   list-style: none;
   text-align: center;
 }
 
-.card-list__item {
+.work-list__item {
   margin-bottom: 5px;
   font-size: 18px;
   font-weight: 400;
 }
 
-.card-list__image {
+.work-list__image {
   margin-right: 5px;
 }
 
-.card-image__item {
+.work-image__item {
   padding: 0;
   background: transparent;
   -webkit-box-shadow: none;

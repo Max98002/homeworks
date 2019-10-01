@@ -31,19 +31,21 @@ img
       font-weight: 400
       margin-bottom: 90px
 
-.card
-  display: flex
-  justify-content: space-around
-  align-items: flex-start
-  flex-wrap: wrap
+.work
+  &-card
+    display: flex
+    justify-content: space-around
+    align-items: flex-start
+    flex-wrap: wrap
   &-block
     display: flex
     flex-direction: column
     justify-content: center
     align-items: center
-    padding: 50px 48px 45px 52px
     background: #ffffff
     box-shadow: 0 14px 21px rgba(0, 0, 0, 0.17)
+    &__padding
+      padding: 50px 48px 45px 52px
     &__title
       margin-bottom: 33px
       font-size: 19px
@@ -87,8 +89,7 @@ img
     &__image
       margin-right: 5px
   &-image
-   &__item
-     padding: 0
-     background: transparent
-     box-shadow: none
-
+    &__item
+      padding: 0
+      background: transparent
+      box-shadow: none
