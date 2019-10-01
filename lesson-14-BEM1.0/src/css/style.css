@@ -54,6 +54,11 @@ img {
       flex-wrap: wrap;
 }
 
+.blouses-block__card {
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
 .blouses-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,8 +74,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 15px;
-  margin-bottom: 30px;
 }
 
 .blouses-card:last-first {
