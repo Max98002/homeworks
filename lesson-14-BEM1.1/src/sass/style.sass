@@ -1,0 +1,94 @@
+*,*::after,*::before
+  box-sizing: border-box
+  outline: none
+
+body
+  padding: 0
+  margin: 0
+  font-family: sans-serif
+  background: #006c00
+
+img
+  max-width: 100%
+
+.container
+  max-width: 1288px
+  margin: auto
+
+.section
+  padding: 120px  0 117px
+  &-heading
+    text-align: center
+    color: #ffffff
+    &__subtitle
+      display: block
+      margin-bottom: 50px
+      font-size: 36px
+      font-weight: 700
+    &__title
+      display: block
+      font-size: 18px
+      font-weight: 400
+      margin-bottom: 90px
+
+.card
+  display: flex
+  justify-content: space-around
+  align-items: flex-start
+  flex-wrap: wrap
+  &-block
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 50px 48px 45px 52px
+    background: #ffffff
+    box-shadow: 0 14px 21px rgba(0, 0, 0, 0.17)
+    &__title
+      margin-bottom: 33px
+      font-size: 19px
+      font-weight: 700
+    &__image
+      margin-bottom: 37px
+    &__price
+      margin-bottom: 34px
+      font-size: 19px
+      font-weight: 700
+    &__big
+      font-size: 30px
+    &__button
+      cursor: pointer
+      width: 209px
+      height: 65px
+      font-size: 18px
+      font-weight: 400
+      color: #ffffff
+      text-transform: uppercase
+      box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04)
+      border-radius: 8px
+      border: 1px solid #ffba15
+      background-color: #ffb504
+      background-image: linear-gradient(to top, #f5ad00 0%, #ffb504 100%)
+      &_l
+        margin-top: 112px
+      &_m
+        margin-top: 60px
+      &_s
+        margin-top: 34px
+  &-list
+    padding: 0
+    margin: 0
+    list-style: none
+    text-align: center
+    &__item
+      margin-bottom: 5px
+      font-size: 18px
+      font-weight: 400
+    &__image
+      margin-right: 5px
+  &-image
+   &__item
+     padding: 0
+     background: transparent
+     box-shadow: none
+
